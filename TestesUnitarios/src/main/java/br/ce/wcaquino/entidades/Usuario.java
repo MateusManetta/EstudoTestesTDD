@@ -18,7 +18,14 @@ public class Usuario {
 	}
 
 	private String nome;
-	
+
+	@Override
+	public String toString() {
+		return "Usuario{" +
+				"nome='" + nome + '\'' +
+				'}';
+	}
+
 	public Usuario() {}
 	
 	public Usuario(String nome) {
